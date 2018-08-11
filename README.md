@@ -32,7 +32,7 @@ Example: `POST /client`
 New client as the response.
 
 + **POST** on `/consumption` to add new consumption record.  
-Parameters `id` (client id), `type` (supported types: gas, cold_water, hot_water), `value` are required.
+Parameters `id` (client id), `type` (supported types: gas, cold_water, hot_water), `value` are required.  
 Example: `POST /consumption?id=1&type=cold_water&value=55.20`  
 Status 200 OK as the response.
 
